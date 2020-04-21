@@ -28,7 +28,7 @@ google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinbu
 address:
   street: Ida Aalbergintie 1, 1D
   postcode: 00400
-  city: EHelsinki
+  city: Helsinki
   country: Finland
 google_analytics: UA-69300817-1
 
