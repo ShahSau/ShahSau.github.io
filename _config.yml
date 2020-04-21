@@ -1,0 +1,38 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://jekyller.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: Shahraiar Karim Saurov's Resume
+name: Shahraiar Karim Saurov
+email: shahriarksaurov@gmail.com
+email_full: shahriarksaurov@gmail.com
+website: github.io/ShahSau
+website_full: https://jekyller.github.io/sustain
+github: trending
+twitter: twitter
+tel: +358452249949
+tel_full: tel:+358452249949
+google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address:
+  street: Ida Aalbergintie 1, 1D
+  postcode: 00400
+  city: EHelsinki
+  country: Finland
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
+
+theme: jekyll-theme-tactile
